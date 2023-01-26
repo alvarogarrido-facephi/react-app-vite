@@ -7,12 +7,12 @@ export const ApiConstants = {
     },
   },
   USER: {
-    SIGN_UP: "/auth/register",
-    FIND_ALL: "/auth/all",
+    SIGN_UP: "/v1/auth/register",
+    FIND_ALL: "/v1/auth/all",
     DELETE: (userId: string) => {
-      return "/auth/remove/" + userId;
+      return "/v1/auth/remove/" + userId;
     },
   },
-  LOGIN: "/auth/login",
+  LOGIN: "/v1/auth/login",
 };
 
